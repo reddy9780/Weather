@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage NavigationPage.HasNavigationBar="false"  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Weather.TrackLocation">
+	<ContentPage.Content>
+			<AbsoluteLayout>
+
+			 <Image x:Name="BgImage" Source="weather.png"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+               AbsoluteLayout.LayoutFlags="All"/>
+			
+			  <StackLayout
+		            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+		            AbsoluteLayout.LayoutFlags="All">
+
+		            <Frame OutlineColor="Accent" 
+		                   WidthRequest="300" 						   
+		                   HorizontalOptions="Center"
+		                   VerticalOptions="CenterAndExpand">
+		                <StackLayout HorizontalOptions="Fill" Margin="40,0" VerticalOptions="CenterAndExpand">
+							<Entry x:Name="weatherEntry"  Placeholder="Enter Zip Code" />
+							<Button  Text="Check Weather" Clicked="GetWeatherDetails" />
+						</StackLayout>
+					
+		            </Frame>
+		       </StackLayout>
+
+    		</AbsoluteLayout>
+		</ContentPage.Content>
+</ContentPage>

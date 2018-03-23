@@ -1,0 +1,11 @@
+﻿<Properties StartupConfiguration="{0DC46A3F-FEBF-49F6-B085-60414865C1C4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Weather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E989EAF8-9416-480F-965F-C1698B6D4D35" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Weather.Droid PreferredExecutionTarget="Android.emulator-5554" />
+</Properties>
